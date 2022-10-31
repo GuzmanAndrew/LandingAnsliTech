@@ -416,7 +416,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/future-modified.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -720,7 +720,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/codigo-modified.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1570,4 +1570,15 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+/* MY CODE */
+.title-header {
+  margin: 0;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 63px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: inline !important;
 }
