@@ -21,7 +21,7 @@ if (isset($_POST['enviar'])) {
          echo json_encode($response);
          exit;
       } else {
-         $response = array('success' => false);
+         $response = array('success' => false, 'error' => 'Error al enviar el correo');
          echo json_encode($response);
       }
 

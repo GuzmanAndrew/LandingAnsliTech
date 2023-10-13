@@ -430,6 +430,7 @@
             <h4 class="success-message" style="color: #fdc12d; font-weight: bold; text-align: center; display: none;">
               ¡Correo enviado exitosamente!
             </h4>
+
           </div>
 
         </div>
@@ -523,6 +524,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="js/email.js"></script>
 
 </body>
 
