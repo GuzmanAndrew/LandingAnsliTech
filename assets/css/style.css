@@ -316,8 +316,18 @@ h6 {
 }
 
 @media (max-width: 991px) {
+  .logo-link {
+    position: relative;
+    right: 28px;
+  }
+}
+
+@media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    position: fixed;
+    right: 15px;
+    top: 53px;
   }
 
   .navbar ul {
@@ -1582,4 +1592,11 @@ section {
   font-family: "Poppins", sans-serif;
   display: inline-block !important;
   width: 106%;
+}
+
+/* Estilo para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .title-header {
+    width: 100%;
+  }
 }
