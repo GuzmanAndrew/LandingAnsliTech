@@ -1,8 +1,10 @@
 <?php
 
 if (isset($_POST['enviar'])) {
-   if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject'])
-   && !empty($_POST['message'])) {
+   if (
+      !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject'])
+      && !empty($_POST['message'])
+   ) {
 
       $name = $_POST['name'];
       $email = $_POST['email'];
@@ -15,7 +17,12 @@ if (isset($_POST['enviar'])) {
       $mail = mail($email_to, $subject, $message, $header);
 
       if ($mail) {
-         echo '<h4 style="color: #fdc12d; font-weight: bold;">¡Correo enviado exitosamente!</h4>';
+         $response = array('success' => true);
+         echo json_encode($response);
+         exit;
+      } else {
+         $response = array('success' => false);
+         echo json_encode($response);
       }
 
    }

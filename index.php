@@ -426,7 +426,10 @@
               <div class="text-center"><button type="submit" name="enviar">Enviar Mensaje</button></div>
             </form>
             <?php include("correo.php") ?>
-
+            <!-- Mensaje de éxito oculto inicialmente -->
+            <h4 class="success-message" style="color: #fdc12d; font-weight: bold; text-align: center; display: none;">
+              ¡Correo enviado exitosamente!
+            </h4>
           </div>
 
         </div>
@@ -517,7 +520,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
