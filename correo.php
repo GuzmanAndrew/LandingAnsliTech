@@ -17,12 +17,13 @@ if (isset($_POST['enviar'])) {
       $mail = mail($email_to, $subject, $message, $header);
 
       if ($mail) {
-         $response = array('success' => true);
-         echo json_encode($response);
+         // Redireccionar a index.php con un mensaje de éxito
+         header("Location: index.php?success=1");
          exit;
       } else {
-         $response = array('success' => false, 'error' => 'Error al enviar el correo');
-         echo json_encode($response);
+         // Redireccionar a index.php con un mensaje de error
+         header("Location: index.php?success=0");
+         exit;
       }
 
    }

@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>SulamTech</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="SulamTech - Tu socio confiable en desarrollo de software y tecnología de vanguardia">
+  <meta name="keywords" content="SulamTech, desarrollo de software, tecnología, innovación">
 
   <!-- Favicons -->
   <link href="assets/img/logo/circulo.ico" rel="icon">
@@ -28,13 +28,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-  <!-- =======================================================
-  * Template Name: Gp - v4.9.1
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -408,7 +403,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form method="post" class="php-email-form">
+            <form action="correo.php" method="post" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
@@ -425,17 +420,33 @@
               </div>
               <div class="text-center"><button type="submit" name="enviar">Enviar Mensaje</button></div>
             </form>
-            <?php include("correo.php") ?>
-            <!-- Mensaje de éxito oculto inicialmente -->
-            <h4 class="success-message" style="color: #fdc12d; font-weight: bold; text-align: center; display: none;">
-              ¡Correo enviado exitosamente!
-            </h4>
 
           </div>
 
         </div>
 
       </div>
+
+      <!-- Modal para mensajes de éxito o error -->
+      <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Contenido del modal: Aquí mostrarás el mensaje de éxito o error -->
+              <p id="modal-message"></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background: #ffc451 !important; color: black;">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -512,7 +523,37 @@
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+      class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <script>
+    var modal = new bootstrap.Modal(document.getElementById("myModal")); // Inicializa el modal
+
+    // Función para mostrar el modal con el mensaje correspondiente
+    function mostrarModal(success) {
+      var modalMessage = document.getElementById("modal-message");
+
+      if (success === "1") {
+        modalMessage.innerText = "¡Correo enviado exitosamente!";
+      } else {
+        modalMessage.innerText = "¡No se envió el correo con éxito!";
+      }
+
+      modal.show(); // Muestra el modal
+    }
+
+    // Verificar si hay un parámetro 'success' en la URL
+    var urlParams = new URLSearchParams(window.location.search);
+    var successParam = urlParams.get('success');
+
+    // Mostrar el modal si se encontró el parámetro 'success'
+    if (successParam) {
+      mostrarModal(successParam);
+    }
+  </script>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -524,7 +565,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="js/email.js"></script>
 
 </body>
 
