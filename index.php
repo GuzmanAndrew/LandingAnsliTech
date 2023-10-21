@@ -28,7 +28,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
 
@@ -41,38 +40,16 @@
       <a href="index.html" class="logo-link">
         <img src="assets/img/logo/logotipo.png" alt="logo" style="width: 243px;">
       </a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#about">Acerca de nosotros</a></li>
           <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#team">Equipo</a></li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
-      <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
 
     </div>
   </header><!-- End Header -->
@@ -150,15 +127,6 @@
               clientes necesitan. Somos los socios confiables que siempre harán un
               esfuerzo adicional y más allá.
             </p>
-            <!-- <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-            </p> -->
           </div>
         </div>
 
@@ -266,14 +234,6 @@
             </div>
           </div>
 
-          <!-- <div class="col-sm-4">
-            <div class="card" style="box-shadow: 5px 5px 8px black;">
-              <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">Marketplaces</h5>
-              </div>
-            </div>
-          </div> -->
-
         </div>
       </div>
     </section><!-- End Services Section -->
@@ -293,72 +253,6 @@
 
       </div>
     </section><!-- End Cta Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="team">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Equipo</h2>
-          <p>Conozca el equipo</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/team/andrew.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="https://www.instagram.com/andrew_strg/?hl=es-la"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/steevegr/"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Andrew Ramirez</h4>
-                <span>Chief Executive Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/team/sebastian.jpeg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="https://www.instagram.com/jsebastian_diaz_vera/?hl=es-la"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/juan-sebastian-d%C3%ADaz-vera-36a51216b/"><i
-                      class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sebastian Díaz</h4>
-                <span>Chief Technology Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/lizeth.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="https://www.instagram.com/jliz_zb/?hl=es-la"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/judier-lizeth-zambrano-barrios-360a84b0/"><i
-                      class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Lizeth Zambrano</h4>
-                <span>Chief Operating Officer</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> --><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -500,15 +394,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketplaces</a></li>
             </ul>
           </div>
-
-          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div> -->
 
         </div>
       </div>

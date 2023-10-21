@@ -466,13 +466,13 @@ h6 {
   font-size: 24px;
 }
 
-#hero .icon-box {
+/* #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
   text-align: center;
-}
+} */
 
 #hero .icon-box i {
   font-size: 32px;
@@ -498,9 +498,9 @@ h6 {
   color: #ffc451;
 }
 
-#hero .icon-box:hover {
+/* #hero .icon-box:hover {
   border-color: #ffc451;
-}
+} */
 
 @media (min-width: 1024px) {
   #hero {
