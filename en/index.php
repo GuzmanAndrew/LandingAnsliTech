@@ -11,7 +11,7 @@
   <meta name="keywords" content="SulamTech, software development, technology, innovation">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/circle.ico" rel="icon">
+  <link href="assets/img/logo/circulo.ico" rel="icon">
 
   <!-- Google Fonts -->
   <link
