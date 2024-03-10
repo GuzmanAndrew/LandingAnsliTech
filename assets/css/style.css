@@ -293,6 +293,10 @@ h6 {
   visibility: visible;
 }
 
+.navbar .lang-link {
+  padding-left: 10px;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -418,6 +422,10 @@ h6 {
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
+}
+
+.navbar-mobile .lang-link {
+  padding-left: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1599,4 +1607,25 @@ section {
   .title-header {
     width: 100%;
   }
+}
+
+/* Styles for language picker */
+
+/* language-picker should have sane font  */
+.language-picker-select {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 15px;
+  display: inline-block;
+  border: 2px solid #ffc451;
+  padding: 7px 20px 8px 20px;
+  transition: 0.3s;
+  white-space: nowrap;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #ffc451;
+  background-color: #151515;
 }

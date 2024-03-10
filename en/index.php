@@ -7,11 +7,11 @@
 
   <title>SulamTech</title>
   <meta name="description"
-    content="SulamTech - Tu socio confiable en desarrollo de software y tecnología de vanguardia">
-  <meta name="keywords" content="SulamTech, desarrollo de software, tecnología, innovación">
+    content="SulamTech - Your reliable partner in software development and cutting-edge technology">
+  <meta name="keywords" content="SulamTech, software development, technology, innovation">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/circulo.ico" rel="icon">
+  <link href="assets/img/logo/circle.ico" rel="icon">
 
   <!-- Google Fonts -->
   <link
@@ -44,12 +44,14 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Acerca de nosotros</a></li>
-          <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-          <li><a class="nav-link scrollto" href="/"><img src="assets/img/lang/co.svg" alt="Español" style="width: 24px;"></a></li>
-          <li><a class="nav-link scrollto lang-link" href="/en"><img src="assets/img/lang/us.svg" alt="English" style="width: 24px;"></a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="/"><img src="assets/img/lang/co.svg" alt="Español"
+                style="width: 24px;"></a></li>
+          <li><a class="nav-link scrollto lang-link" href="/en"><img src="assets/img/lang/us.svg" alt="English"
+                style="width: 24px;"></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -63,8 +65,8 @@
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-lg-8">
-          <p class="title-header">Potentes Soluciones Digitales</p>
-          <h2>Somos un equipo preparado para grandes retos</h2>
+          <p class="title-header">Powerful Digital Solutions</p>
+          <h2>We are a team ready for big challenges</h2>
         </div>
       </div>
 
@@ -72,25 +74,25 @@
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-code-s-slash-fill"></i>
-            <h3 style="color: white;">Metodologías de Desarrollo Ágil</h3>
+            <h3 style="color: white;">Agile Development Methodologies</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-tools-fill"></i>
-            <h3 style="color: white;">Tecnologías de Punta</h3>
+            <h3 style="color: white;">Cutting-Edge Technologies</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-shield-user-fill"></i>
-            <h3 style="color: white;">Calidad y Seguridad</a></h3>
+            <h3 style="color: white;">Quality and Security</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-settings-2-fill"></i>
-            <h3 style="color: white;">Soporte y Mantenimiento</h3>
+            <h3 style="color: white;">Support and Maintenance</h3>
           </div>
         </div>
       </div>
@@ -108,25 +110,26 @@
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
             <img src="assets/img/photo_1.png" class="img-fluid" alt="">
           </div>
-          <div style="text-align: justify;" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>Soluciones integrales</h3>
+          <div style="text-align: justify;" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+            data-aos="fade-right" data-aos-delay="100">
+            <h3>Comprehensive Solutions</h3>
             <p>
-              Nosotros somos una empresa 100% colombiana que crece todos los días aprendiendo sobre las últimas
-              tecnologías en desarrollo de software, que ofrece soluciones confiables con innovación y
-              tecnología de vanguardia para lograr un mundo más confiable, seguro y digital.
+              We are a 100% Colombian company that grows every day by learning about the latest
+              software development technologies, offering reliable solutions with innovation and
+              cutting-edge technology to achieve a more reliable, safe, and digital world.
             </p>
             <ul class="my-4">
-              <li><i class="ri-check-double-line"></i> Nos preocupamos por los proyectos de nuestros clientes como si fueran propios,
-                para nosotros un cliente es otro compañero de equipo.</li>
-              <li><i class="ri-check-double-line"></i> Ayudar a las empresas a
-                crecer es la razón por la que nos despertamos todos los días.</li>
-              <li><i class="ri-check-double-line"></i> Nuestro objetivo es ser
-                agentes positivos de cambio en la sociedad.</li>
+              <li><i class="ri-check-double-line"></i> We care about our clients' projects as if they were our own,
+                for us a client is another team member.</li>
+              <li><i class="ri-check-double-line"></i> Helping businesses
+                grow is the reason we wake up every day.</li>
+              <li><i class="ri-check-double-line"></i> Our goal is to be
+                positive agents of change in society.</li>
             </ul>
             <p>
-              Repensamos constantemente la forma en que trabajamos para lograr el cambio que nuestros
-              clientes necesitan. Somos los socios confiables que siempre harán un
-              esfuerzo adicional y más allá.
+              We constantly rethink the way we work to achieve the change our
+              clients need. We are the reliable partners who will always make an
+              extra effort and go beyond.
             </p>
           </div>
         </div>
@@ -161,23 +164,25 @@
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-receipt"></i>
-              <h4>Metodologías de desarrollo ágil</h4>
-              <p style="text-align: justify;">Somos expertos en el marco de trabajo SCRUM. Nos adaptamos a tus necesidades y
-                encontramos la mejor forma de responder a ellas.</p>
+              <h4>Agile Development Methodologies</h4>
+              <p style="text-align: justify;">We are experts in the SCRUM framework. We adapt to your needs and
+                find the best way to address them.</p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-cube-alt"></i>
-              <h4>Soluciones de tecnología</h4>
-              <p style="text-align: justify;">Tenemos habilidades avanzadas en diferentes tecnologías de punta que junto
-                a la aplicación de nuestros valores corporativos, nos permiten prestar un servicio de calidad y
-                eficiente.</p>
+              <h4>Technology Solutions</h4>
+              <p style="text-align: justify;">We have advanced skills in different cutting-edge technologies which,
+                along with the application of our corporate values, allow us to provide a quality and
+                efficient service.</p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-group"></i>
-              <h4>Equipo de trabajo</h4>
+              <h4>Our Team</h4>
               <p style="text-align: justify;">
-                Creamos las soluciones que nuestros clientes necesitan poniendo a las personas con las
-                habilidades adecuadas en la sala.
+                We create the solutions our clients need by putting the right people with the
+                right skills in the room
+
+                .
               </p>
             </div>
           </div>
@@ -191,8 +196,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Servicios</h2>
-          <p>Nuestros Servicios</p>
+          <h2>Services</h2>
+          <p>Our Services</p>
         </div>
 
         <div class="row">
@@ -201,7 +206,7 @@
             <div class="card" style="margin-bottom: 25px; box-shadow: 5px 5px 8px black;">
               <div class="card-body">
                 <h5 class="card-title" style="text-align: center; font-weight: bold;">
-                  Desarrollo de Software a la Medida
+                  Custom Software Development
                 </h5>
               </div>
             </div>
@@ -210,7 +215,7 @@
             <div class="card" style="margin-bottom: 25px; box-shadow: 5px 5px 8px black;">
               <div class="card-body">
                 <h5 class="card-title" style="text-align: center; font-weight: bold;">
-                  Desarrollo de Aplicaciones móviles
+                  Mobile App Development
                 </h5>
               </div>
             </div>
@@ -221,14 +226,14 @@
           <div class="col-sm-6">
             <div class="card" style="margin-bottom: 25px; box-shadow: 5px 5px 8px black;">
               <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">Desarrollo de Sitios Web</h5>
+                <h5 class="card-title" style="text-align: center; font-weight: bold;">Website Development</h5>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="card" style="box-shadow: 5px 5px 8px black;">
               <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">Desarrollo de E-commerce</h5>
+                <h5 class="card-title" style="text-align: center; font-weight: bold;">E-commerce Development</h5>
               </div>
             </div>
           </div>
@@ -242,12 +247,12 @@
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
-          <h3>¿Tienes algún proyecto?</h3>
+          <h3>Have a Project in Mind?</h3>
           <p>
-            Contactanos para que puedas exponer tus necesidades con el fin de ayudarte
-            con el diseño, desarrollo e implementación de la solución que tu empresa necesita.
+            Contact us so you can discuss your needs in order to help you
+            with the design, development, and implementation of the solution your company needs.
           </p>
-          <a class="cta-btn" href="#">Cotiza tu proyecto</a>
+          <a class="cta-btn" href="#">Quote Your Project</a>
         </div>
 
       </div>
@@ -258,8 +263,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contacto</h2>
-          <p>Contactenos</p>
+          <h2>Contact</h2>
+          <p>Contact Us</p>
         </div>
 
         <div>
@@ -274,15 +279,17 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Ubicación:</h4>
-                <p>Carrera 72a # 64a-36, Bogotá Colombia</p>
+                <h4>Location:</h4>
+                <p>Carrera 72a # 64a-36, Bogotá, Colombia</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Correo electrónico:</h4>
+                <h4>Email:</h4>
                 <p>andrew.ramirez@sulamtech.com</p>
               </div>
+
+
 
               <div class="phone">
                 <i class="bi bi-whatsapp"></i>
@@ -299,19 +306,19 @@
             <form action="correo.php" method="post" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Correo" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="text-center"><button class="w-100" type="submit" name="enviar">Enviar Mensaje</button></div>
+              <div class="text-center"><button class="w-100" type="submit" name="enviar">Send Message</button></div>
             </form>
 
           </div>
@@ -320,21 +327,21 @@
 
       </div>
 
-      <!-- Modal para mensajes de éxito o error -->
+      <!-- Modal for success or error messages -->
       <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              <h5 class="modal-title" id="exampleModalLabel">Message</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <!-- Contenido del modal: Aquí mostrarás el mensaje de éxito o error -->
+              <!-- Modal content: Here you'll show the success or error message -->
               <p id="modal-message"></p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
-                style="background: #ffc451 !important; color: black;">Cerrar</button>
+                style="background: #ffc451 !important; color: black;">Close</button>
             </div>
           </div>
         </div>
@@ -359,8 +366,8 @@
               <p>
                 Carrera 72a # 64a-36 <br>
                 Bogotá, Colombia<br><br>
-                <strong>Telefono:</strong> +57 319 3705225<br>
-                <strong>Correo:</strong> andrew.ramirez@sulamtech.com<br>
+                <strong>Phone:</strong> +57 319 3705225<br>
+                <strong>Email:</strong> andrew.ramirez@sulamtech.com<br>
               </p>
               <div class="social-links mt-3">
                 <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -374,22 +381,25 @@
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links" style="margin-top: 53px;">
-            <h4>Enlaces útiles</h4>
+            <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#hero">Inicio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">Acerca de nosotros</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#">Servicios</a></li> -->
-              <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#">Términos de servicio</a></li> -->
-              <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#">Política de privacidad</a></li> -->
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">About Us</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#">Services</a></li> -->
+              <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#">Terms of Service</a></li> -->
+              <!-- <li><i class="bx bx-chevron-right"></i> <a
+
+ class="scrollto" href="#">Privacy Policy</a></li> -->
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links" style="margin-top: 53px;">
-            <h4>Nuestros Servicios</h4>
+            <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Desarrollo de software a la medida</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Apps móviles</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Desarrollo de sitios web</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Custom Software
+                  Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Mobile Apps</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Website Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">E-commerce</a></li>
               <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Marketplaces</a></li>
             </ul>
@@ -415,26 +425,26 @@
     crossorigin="anonymous"></script>
 
   <script>
-    var modal = new bootstrap.Modal(document.getElementById("myModal")); // Inicializa el modal
+    var modal = new bootstrap.Modal(document.getElementById("myModal")); // Initializes the modal
 
-    // Función para mostrar el modal con el mensaje correspondiente
+    // Function to display the modal with the corresponding message
     function mostrarModal(success) {
       var modalMessage = document.getElementById("modal-message");
 
       if (success === "1") {
-        modalMessage.innerText = "¡Correo enviado exitosamente!";
+        modalMessage.innerText = "Email sent successfully!";
       } else {
-        modalMessage.innerText = "Hubo un error al enviar el correo. Por favor intenta de nuevo.";
+        modalMessage.innerText = "There was an error sending the email. Please try again.";
       }
 
-      modal.show(); // Muestra el modal
+      modal.show(); // Shows the modal
     }
 
-    // Verificar si hay un parámetro 'success' en la URL
+    // Check for a 'success' parameter in the URL
     var urlParams = new URLSearchParams(window.location.search);
     var successParam = urlParams.get('success');
 
-    // Mostrar el modal si se encontró el parámetro 'success'
+    // Show the modal if the 'success' parameter was found
     if (successParam) {
       mostrarModal(successParam);
     }
