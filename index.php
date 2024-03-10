@@ -203,6 +203,17 @@
                 <h5 class="card-title" style="text-align: center; font-weight: bold;">
                   Desarrollo de Software a la Medida
                 </h5>
+                <p class="card-text">Desarrollamos software personalizado adaptado a las necesidades 
+                  específicas de su negocio. Nuestro equipo de expertos en programación analiza sus 
+                  requerimientos y crea una solución robusta, eficiente y fácil de usar.
+                  <ul>
+                    <li>Análisis profundo de requerimientos.</li>
+                    <li>Diseño centrado en la usabilidad.</li>
+                    <li>Desarrollo e implementación de software.</li>
+                    <li>Pruebas y depuración.</li>
+                    <li>Asistencia y mantenimiento post-implementación.</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
@@ -212,6 +223,17 @@
                 <h5 class="card-title" style="text-align: center; font-weight: bold;">
                   Desarrollo de Aplicaciones móviles
                 </h5>
+                <p class="card-text">Creamos aplicaciones nativas e híbridas para dispositivos 
+                  iOS y Android, con un enfoque en el diseño centrado en el usuario y la funcionalidad robusta.
+                  &nbsp; &nbsp;
+                  <ul>
+                    <li>Desarrollo de aplicaciones nativas e híbridas.</li>
+                    <li>Diseño adaptado a diferentes tamaños de pantalla.</li>
+                    <li>Integración con funciones del dispositivo (cámara, GPS, etc.).</li>
+                    <li>Pruebas en diferentes dispositivos y sistemas operativos.</li>
+                    <li>Asistencia y mantenimiento post-lanzamiento.</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
@@ -221,14 +243,37 @@
           <div class="col-sm-6">
             <div class="card" style="margin-bottom: 25px; box-shadow: 5px 5px 8px black;">
               <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">Desarrollo de Sitios Web</h5>
+                <h5 class="card-title" style="text-align: center; font-weight: bold;">
+                  Desarrollo de Sitios Web</h5>
+                <p class="card-text">Ofrecemos servicios de diseño y desarrollo de sitios web modernos 
+                  y atractivos, optimizados para una excelente experiencia de usuario y un posicionamiento 
+                  sólido en motores de búsqueda.
+                  <ul>
+                    <li>Diseño web responsivo y atractivo.</li>
+                    <li>Optimización SEO para un mejor posicionamiento en motores de búsqueda.</li>
+                    <li>Desarrollo de funcionalidades específicas (formularios, galerías, etc.).</li>
+                    <li>Integración con redes sociales.</li>
+                    <li>Asistencia y mantenimiento post-implementación.</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="card" style="box-shadow: 5px 5px 8px black;">
               <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">Desarrollo de E-commerce</h5>
+                <h5 class="card-title" style="text-align: center; font-weight: bold;">
+                  Desarrollo de E-commerce</h5>
+                <p class="card-text">Creamos tiendas en línea potentes y fáciles de usar utilizando plataformas 
+                  como WordPress y Elementor.
+                  <ul>
+                    <li>Diseño web atractivo y fácil de navegar.</li>
+                    <li>Integración con pasarelas de pago seguras.</li>
+                    <li>Gestión de inventario y catálogos de productos.</li>
+                    <li>Seguimiento y análisis de ventas.</li>
+                    <li>Asistencia y mantenimiento post-implementación.</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
