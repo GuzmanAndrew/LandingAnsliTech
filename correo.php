@@ -17,16 +17,13 @@ if (isset($_POST['enviar'])) {
       $mail = mail($email_to, $subject, $message, $header);
 
       if ($mail) {
-         // Redireccionar a index.php con un mensaje de éxito
-         header("Location: index.php?success=1");
+         // Redirect to index.php with success message
+         header("Location: /?success=1");
          exit;
       } else {
-         // Redireccionar a index.php con un mensaje de error
-         header("Location: index.php?success=0");
+         // Redirect to index.php with failure  message
+         header("Location: /?success=0");
          exit;
       }
-
    }
 }
-
-?>
