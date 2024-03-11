@@ -48,8 +48,10 @@
           <li><a class="nav-link scrollto" href="#about">Acerca de nosotros</a></li>
           <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-          <li><a class="nav-link scrollto" href="/"><img src="assets/img/lang/co.svg" alt="Español" style="width: 24px;"></a></li>
-          <li><a class="nav-link scrollto lang-link" href="/en"><img src="assets/img/lang/us.svg" alt="English" style="width: 24px;"></a></li>
+          <li><a class="nav-link scrollto" href="/"><img src="assets/img/lang/co.svg" alt="Español"
+                style="width: 24px;"></a></li>
+          <li><a class="nav-link scrollto lang-link" href="/en"><img src="assets/img/lang/us.svg" alt="English"
+                style="width: 24px;"></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -108,7 +110,8 @@
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
             <img src="assets/img/photo_1.png" class="img-fluid" alt="">
           </div>
-          <div style="text-align: justify;" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+          <div style="text-align: justify;" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+            data-aos="fade-right" data-aos-delay="100">
             <h3>Soluciones integrales</h3>
             <p>
               Nosotros somos una empresa 100% colombiana que crece todos los días aprendiendo sobre las últimas
@@ -116,7 +119,8 @@
               tecnología de vanguardia para lograr un mundo más confiable, seguro y digital.
             </p>
             <ul class="my-4">
-              <li><i class="ri-check-double-line"></i> Nos preocupamos por los proyectos de nuestros clientes como si fueran propios,
+              <li><i class="ri-check-double-line"></i> Nos preocupamos por los proyectos de nuestros clientes como si
+                fueran propios,
                 para nosotros un cliente es otro compañero de equipo.</li>
               <li><i class="ri-check-double-line"></i> Ayudar a las empresas a
                 crecer es la razón por la que nos despertamos todos los días.</li>
@@ -162,7 +166,8 @@
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-receipt"></i>
               <h4>Metodologías de desarrollo ágil</h4>
-              <p style="text-align: justify;">Somos expertos en el marco de trabajo SCRUM. Nos adaptamos a tus necesidades y
+              <p style="text-align: justify;">Somos expertos en el marco de trabajo SCRUM. Nos adaptamos a tus
+                necesidades y
                 encontramos la mejor forma de responder a ellas.</p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
@@ -194,90 +199,97 @@
           <h2>Servicios</h2>
           <p>Nuestros Servicios</p>
         </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button"
+              role="tab" aria-controls="tab1" aria-selected="true">
+              <span style="font-weight: bold; color: black;">
+                Desarrollo de Software a la Medida
+              </span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab"
+              aria-controls="tab2" aria-selected="false">
+              <span style="font-weight: bold; color: black;">
+                Desarrollo de Aplicaciones móviles
+              </span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab"
+              aria-controls="tab3" aria-selected="false">
+              <span style="font-weight: bold; color: black;">
+                Desarrollo de Sitios Web
+              </span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab"
+              aria-controls="tab4" aria-selected="false">
+              <span style="font-weight: bold; color: black;">
+                Desarrollo de E-commerce
+              </span>
+            </button>
+          </li>
+        </ul>
 
-        <div class="row">
-
-          <div class="col-sm-6">
-            <div class="card" style="margin-bottom: 25px; box-shadow: 5px 5px 8px black;">
-              <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">
-                  Desarrollo de Software a la Medida
-                </h5>
-                <p class="card-text">Desarrollamos software personalizado adaptado a las necesidades 
-                  específicas de su negocio. Nuestro equipo de expertos en programación analiza sus 
-                  requerimientos y crea una solución robusta, eficiente y fácil de usar.
-                  <ul>
-                    <li>Análisis profundo de requerimientos.</li>
-                    <li>Diseño centrado en la usabilidad.</li>
-                    <li>Desarrollo e implementación de software.</li>
-                    <li>Pruebas y depuración.</li>
-                    <li>Asistencia y mantenimiento post-implementación.</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+            <br>
+            <p>Creamos software personalizado para su negocio. Nuestro equipo
+              de expertos en programación analiza sus necesidades y crea una solución robusta y eficiente.
+            <ul>
+              <li>Análisis profundo de requerimientos.</li>
+              <li>Diseño centrado en la usabilidad.</li>
+              <li>Desarrollo e implementación de software.</li>
+              <li>Pruebas y depuración.</li>
+              <li>Asistencia y mantenimiento post-implementación.</li>
+            </ul>
+            </p>
           </div>
-          <div class="col-sm-6">
-            <div class="card" style="margin-bottom: 25px; box-shadow: 5px 5px 8px black;">
-              <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">
-                  Desarrollo de Aplicaciones móviles
-                </h5>
-                <p class="card-text">Creamos aplicaciones nativas e híbridas para dispositivos 
-                  iOS y Android, con un enfoque en el diseño centrado en el usuario y la funcionalidad robusta.
-                  &nbsp; &nbsp;
-                  <ul>
-                    <li>Desarrollo de aplicaciones nativas e híbridas.</li>
-                    <li>Diseño adaptado a diferentes tamaños de pantalla.</li>
-                    <li>Integración con funciones del dispositivo (cámara, GPS, etc.).</li>
-                    <li>Pruebas en diferentes dispositivos y sistemas operativos.</li>
-                    <li>Asistencia y mantenimiento post-lanzamiento.</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
+          <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+            <br>
+            <p>Creamos aplicaciones nativas e híbridas para dispositivos iOS y
+              Android, con un enfoque en el diseño centrado en el usuario, la funcionalidad robusta
+              y pruebas exhaustivas.
+            <ul>
+              <li>Desarrollo de aplicaciones nativas e híbridas.</li>
+              <li>Diseño adaptado a diferentes tamaños de pantalla.</li>
+              <li>Integración con funciones del dispositivo (cámara, GPS, etc.).</li>
+              <li>Pruebas en diferentes dispositivos y sistemas operativos.</li>
+              <li>Asistencia y mantenimiento post-lanzamiento.</li>
+            </ul>
+            </p>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card" style="margin-bottom: 25px; box-shadow: 5px 5px 8px black;">
-              <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">
-                  Desarrollo de Sitios Web</h5>
-                <p class="card-text">Ofrecemos servicios de diseño y desarrollo de sitios web modernos 
-                  y atractivos, optimizados para una excelente experiencia de usuario y un posicionamiento 
-                  sólido en motores de búsqueda.
-                  <ul>
-                    <li>Diseño web responsivo y atractivo.</li>
-                    <li>Optimización SEO para un mejor posicionamiento en motores de búsqueda.</li>
-                    <li>Desarrollo de funcionalidades específicas (formularios, galerías, etc.).</li>
-                    <li>Integración con redes sociales.</li>
-                    <li>Asistencia y mantenimiento post-implementación.</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
+          <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+            <br>
+            <p>Ofrecemos servicios de diseño y desarrollo de sitios web modernos
+              y atractivos, optimizados para una excelente experiencia de usuario y un posicionamiento
+              sólido en motores de búsqueda.
+            <ul>
+              <li>Diseño web responsivo y atractivo.</li>
+              <li>Optimización SEO para un mejor posicionamiento en motores de búsqueda.</li>
+              <li>Desarrollo de funcionalidades específicas (formularios, galerías, etc.).</li>
+              <li>Integración con redes sociales.</li>
+              <li>Asistencia y mantenimiento post-implementación.</li>
+            </ul>
+            </p>
           </div>
-          <div class="col-sm-6">
-            <div class="card" style="box-shadow: 5px 5px 8px black;">
-              <div class="card-body">
-                <h5 class="card-title" style="text-align: center; font-weight: bold;">
-                  Desarrollo de E-commerce</h5>
-                <p class="card-text">Creamos tiendas en línea potentes y fáciles de usar utilizando plataformas 
-                  como WordPress y Elementor.
-                  <ul>
-                    <li>Diseño web atractivo y fácil de navegar.</li>
-                    <li>Integración con pasarelas de pago seguras.</li>
-                    <li>Gestión de inventario y catálogos de productos.</li>
-                    <li>Seguimiento y análisis de ventas.</li>
-                    <li>Asistencia y mantenimiento post-implementación.</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
+          <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab3-tab">
+            <br>
+            <p>Creamos tiendas en línea potentes y fáciles de usar con Wordpress y
+              Elementor, con un diseño atractivo y optimizadas para una excelente experiencia de
+              usuario y un posicionamiento sólido en motores de búsqueda.
+            <ul>
+              <li>Diseño web atractivo y fácil de navegar.</li>
+              <li>Integración con pasarelas de pago seguras.</li>
+              <li>Gestión de inventario y catálogos de productos.</li>
+              <li>Seguimiento y análisis de ventas.</li>
+              <li>Asistencia y mantenimiento post-implementación.</li>
+            </ul>
+            </p>
           </div>
-
         </div>
       </div>
     </section><!-- End Services Section -->
@@ -395,8 +407,9 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
+          <div class="col-lg-3 col-md-3"></div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-4">
             <div class="footer-info">
               <img src="assets/img/logo/logotipo.png" alt="logo" style="width: 243px; position: relative; right: 27px">
               <br>
@@ -418,28 +431,30 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links" style="margin-top: 53px;">
+          <div class="col-lg-4 col-md-4 footer-links" style="margin-top: 53px;">
             <h4>Enlaces útiles</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#hero">Inicio</a></li>
               <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">Acerca de nosotros</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#">Servicios</a></li> -->
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Servicios</a></li>
               <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#">Términos de servicio</a></li> -->
               <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#">Política de privacidad</a></li> -->
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links" style="margin-top: 53px;">
+          <!-- <div class="col-lg-4 col-md-6 footer-links" style="margin-top: 53px;">
             <h4>Nuestros Servicios</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Desarrollo de software a la medida</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Apps móviles</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Desarrollo de sitios web</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">E-commerce</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">Marketplaces</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#tab1">Desarrollo de Software a la
+                  Medida</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#tab2">Desarrollo de Aplicaciones
+                  móviles</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#tab3">Desarrollo de Sitios Web</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#tab4">Desarrollo de E-commerce</a></li>
             </ul>
-          </div>
+          </div> -->
 
+          <div class="col-lg-3 col-md-3"></div>
         </div>
       </div>
     </div>
@@ -452,7 +467,8 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center scrollto"><i class="bi bi-arrow-up-short"></i>
+  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center scrollto"><i
+      class="bi bi-arrow-up-short"></i>
   </a>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -483,6 +499,30 @@
     if (successParam) {
       mostrarModal(successParam);
     }
+
+    //Footer
+    document.addEventListener("DOMContentLoaded", function () {
+      // Manejar el clic en los enlaces del pie de página
+      var scrolltoLinks = document.querySelectorAll(".scrollto");
+
+      scrolltoLinks.forEach(function (link) {
+        link.addEventListener("click", function (event) {
+          // Evitar el comportamiento predeterminado del enlace
+          event.preventDefault();
+
+          // Obtener el valor del atributo href
+          var targetId = this.getAttribute("href").substring(1);
+
+          // Activar la pestaña correspondiente usando Bootstrap 5
+          var tab = new bootstrap.Tab(document.getElementById(targetId + "-tab"));
+          tab.show();
+
+          // Desplazarse a la posición de la pestaña
+          var targetElement = document.getElementById(targetId);
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    });
   </script>
 
 
