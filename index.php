@@ -200,7 +200,7 @@
           <p>Nuestros Servicios</p>
         </div>
         <ul class="nav nav-tabs" style="justify-content: center;" id="myTab" role="tablist">
-          <li class="nav-item" style="flex: 1;" role="presentation">
+          <li class="nav-item" style="flex: 1; min-width: 200px;" role="presentation">
             <button class="nav-link active w-100" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button"
               role="tab" aria-controls="tab1" aria-selected="true">
               <span style="font-weight: bold; color: black;">
@@ -208,7 +208,7 @@
               </span>
             </button>
           </li>
-          <li class="nav-item" style="flex: 1;" role="presentation">
+          <li class="nav-item" style="flex: 1; min-width: 200px;" role="presentation">
             <button class="nav-link w-100" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab"
               aria-controls="tab2" aria-selected="false">
               <span style="font-weight: bold; color: black;">
@@ -216,7 +216,7 @@
               </span>
             </button>
           </li>
-          <li class="nav-item" style="flex: 1;" role="presentation">
+          <li class="nav-item" style="flex: 1; min-width: 200px;" role="presentation">
             <button class="nav-link w-100" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab"
               aria-controls="tab3" aria-selected="false">
               <span style="font-weight: bold; color: black;">
@@ -224,7 +224,7 @@
               </span>
             </button>
           </li>
-          <li class="nav-item" style="flex: 1;" role="presentation">
+          <li class="nav-item" style="flex: 1; min-width: 200px;" role="presentation">
             <button class="nav-link w-100" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab"
               aria-controls="tab4" aria-selected="false">
               <span style="font-weight: bold; color: black;">
