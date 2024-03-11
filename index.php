@@ -199,52 +199,52 @@
           <h2>Servicios</h2>
           <p>Nuestros Servicios</p>
         </div>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button"
+        <ul class="nav nav-tabs" style="justify-content: center;" id="myTab" role="tablist">
+          <li class="nav-item" style="flex: 1;" role="presentation">
+            <button class="nav-link active w-100" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button"
               role="tab" aria-controls="tab1" aria-selected="true">
               <span style="font-weight: bold; color: black;">
-                Desarrollo de Software a la Medida
+                Software a la medida
               </span>
             </button>
           </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab"
+          <li class="nav-item" style="flex: 1;" role="presentation">
+            <button class="nav-link w-100" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab"
               aria-controls="tab2" aria-selected="false">
               <span style="font-weight: bold; color: black;">
-                Desarrollo de Aplicaciones móviles
+                Aplicaciones móviles
               </span>
             </button>
           </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab"
+          <li class="nav-item" style="flex: 1;" role="presentation">
+            <button class="nav-link w-100" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab"
               aria-controls="tab3" aria-selected="false">
               <span style="font-weight: bold; color: black;">
-                Desarrollo de Sitios Web
+                Sitios Web
               </span>
             </button>
           </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab"
+          <li class="nav-item" style="flex: 1;" role="presentation">
+            <button class="nav-link w-100" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab"
               aria-controls="tab4" aria-selected="false">
               <span style="font-weight: bold; color: black;">
-                Desarrollo de E-commerce
+                Ecommerce
               </span>
             </button>
           </li>
         </ul>
 
-        <div class="tab-content" id="myTabContent">
+        <div class="tab-content" style="text-align: justify;" id="myTabContent">
           <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
             <br>
             <p>Creamos software personalizado para su negocio. Nuestro equipo
               de expertos en programación analiza sus necesidades y crea una solución robusta y eficiente.
             <ul>
-              <li>Análisis profundo de requerimientos.</li>
-              <li>Diseño centrado en la usabilidad.</li>
-              <li>Desarrollo e implementación de software.</li>
-              <li>Pruebas y depuración.</li>
-              <li>Asistencia y mantenimiento post-implementación.</li>
+              <li><i class="ri-check-double-line"></i>Análisis profundo de requerimientos.</li>
+              <li><i class="ri-check-double-line"></i>Diseño centrado en la usabilidad.</li>
+              <li><i class="ri-check-double-line"></i>Desarrollo e implementación de software.</li>
+              <li><i class="ri-check-double-line"></i>Pruebas y depuración.</li>
+              <li><i class="ri-check-double-line"></i>Asistencia y mantenimiento post-implementación.</li>
             </ul>
             </p>
           </div>
@@ -254,11 +254,11 @@
               Android, con un enfoque en el diseño centrado en el usuario, la funcionalidad robusta
               y pruebas exhaustivas.
             <ul>
-              <li>Desarrollo de aplicaciones nativas e híbridas.</li>
-              <li>Diseño adaptado a diferentes tamaños de pantalla.</li>
-              <li>Integración con funciones del dispositivo (cámara, GPS, etc.).</li>
-              <li>Pruebas en diferentes dispositivos y sistemas operativos.</li>
-              <li>Asistencia y mantenimiento post-lanzamiento.</li>
+              <li><i class="ri-check-double-line"></i>Desarrollo de aplicaciones nativas e híbridas.</li>
+              <li><i class="ri-check-double-line"></i>Diseño adaptado a diferentes tamaños de pantalla.</li>
+              <li><i class="ri-check-double-line"></i>Integración con funciones del dispositivo (cámara, GPS, etc.).</li>
+              <li><i class="ri-check-double-line"></i>Pruebas en diferentes dispositivos y sistemas operativos.</li>
+              <li><i class="ri-check-double-line"></i>Asistencia y mantenimiento post-lanzamiento.</li>
             </ul>
             </p>
           </div>
@@ -268,11 +268,11 @@
               y atractivos, optimizados para una excelente experiencia de usuario y un posicionamiento
               sólido en motores de búsqueda.
             <ul>
-              <li>Diseño web responsivo y atractivo.</li>
-              <li>Optimización SEO para un mejor posicionamiento en motores de búsqueda.</li>
-              <li>Desarrollo de funcionalidades específicas (formularios, galerías, etc.).</li>
-              <li>Integración con redes sociales.</li>
-              <li>Asistencia y mantenimiento post-implementación.</li>
+              <li><i class="ri-check-double-line"></i>Diseño web responsivo y atractivo.</li>
+              <li><i class="ri-check-double-line"></i>Optimización SEO para un mejor posicionamiento en motores de búsqueda.</li>
+              <li><i class="ri-check-double-line"></i>Desarrollo de funcionalidades específicas (formularios, galerías, etc.).</li>
+              <li><i class="ri-check-double-line"></i>Integración con redes sociales.</li>
+              <li><i class="ri-check-double-line"></i>Asistencia y mantenimiento post-implementación.</li>
             </ul>
             </p>
           </div>
@@ -282,11 +282,11 @@
               Elementor, con un diseño atractivo y optimizadas para una excelente experiencia de
               usuario y un posicionamiento sólido en motores de búsqueda.
             <ul>
-              <li>Diseño web atractivo y fácil de navegar.</li>
-              <li>Integración con pasarelas de pago seguras.</li>
-              <li>Gestión de inventario y catálogos de productos.</li>
-              <li>Seguimiento y análisis de ventas.</li>
-              <li>Asistencia y mantenimiento post-implementación.</li>
+              <li><i class="ri-check-double-line"></i>Diseño web atractivo y fácil de navegar.</li>
+              <li><i class="ri-check-double-line"></i>Integración con pasarelas de pago seguras.</li>
+              <li><i class="ri-check-double-line"></i>Gestión de inventario y catálogos de productos.</li>
+              <li><i class="ri-check-double-line"></i>Seguimiento y análisis de ventas.</li>
+              <li><i class="ri-check-double-line"></i>Asistencia y mantenimiento post-implementación.</li>
             </ul>
             </p>
           </div>
@@ -501,28 +501,28 @@
     }
 
     //Footer
-    document.addEventListener("DOMContentLoaded", function () {
-      // Manejar el clic en los enlaces del pie de página
-      var scrolltoLinks = document.querySelectorAll(".scrollto");
+    // document.addEventListener("DOMContentLoaded", function () {
+    //   // Manejar el clic en los enlaces del pie de página
+    //   var scrolltoLinks = document.querySelectorAll(".scrollto");
 
-      scrolltoLinks.forEach(function (link) {
-        link.addEventListener("click", function (event) {
-          // Evitar el comportamiento predeterminado del enlace
-          event.preventDefault();
+    //   scrolltoLinks.forEach(function (link) {
+    //     link.addEventListener("click", function (event) {
+    //       // Evitar el comportamiento predeterminado del enlace
+    //       event.preventDefault();
 
-          // Obtener el valor del atributo href
-          var targetId = this.getAttribute("href").substring(1);
+    //       // Obtener el valor del atributo href
+    //       var targetId = this.getAttribute("href").substring(1);
 
-          // Activar la pestaña correspondiente usando Bootstrap 5
-          var tab = new bootstrap.Tab(document.getElementById(targetId + "-tab"));
-          tab.show();
+    //       // Activar la pestaña correspondiente usando Bootstrap 5
+    //       var tab = new bootstrap.Tab(document.getElementById(targetId + "-tab"));
+    //       tab.show();
 
-          // Desplazarse a la posición de la pestaña
-          var targetElement = document.getElementById(targetId);
-          targetElement.scrollIntoView({ behavior: "smooth" });
-        });
-      });
-    });
+    //       // Desplazarse a la posición de la pestaña
+    //       var targetElement = document.getElementById(targetId);
+    //       targetElement.scrollIntoView({ behavior: "smooth" });
+    //     });
+    //   });
+    // });
   </script>
 
 

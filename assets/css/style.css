@@ -1619,3 +1619,22 @@ section {
   border: 2px solid #ffc451;
   background-color: #151515;
 }
+
+.services .tab-pane ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services .tab-pane li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.services .tab-pane ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: #ffc451;
+}
